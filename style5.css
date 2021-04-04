@@ -1,0 +1,19 @@
+body {
+
+  background: url("blueblue.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+}
+
+
+
+
+img{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}

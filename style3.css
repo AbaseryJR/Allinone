@@ -1,0 +1,50 @@
+
+body, html {
+width: 100%;
+height: 100%;
+background: url("lofi.gif") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+}
+
+header{
+background-color: red;
+}
+
+
+.text-uppercase {
+text-decoration-color: black;
+font-size: 5em;
+}
+
+
+.buffer {
+height: 100px;
+}
+
+
+.btn-outline-secondary {
+background-color: black;
+font-size: 3em;
+border: red;
+}
+
+.navbar {
+
+	position: sticky;
+	top: 20;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+	margin: 10px;
+	padding: 10px;
+	background-color: black;
+	z-index: 1;
+}
+
+.navbar a {
+	color: white;
+	text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+	}
